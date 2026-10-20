@@ -1,0 +1,11 @@
+10/19/26:
+
+Ran: get_obs filtered on tissue_general == 'cranial ganglion', value_counts().head(10).
+Broke: shape came back (0, 3), meaning the filter matched no cells or the tissue type was perhaps too specific to generate cell metadata with at least 10 cell types
+Concluded: Should choose a more common cell type (amygdala) that returned valid data
+
+10/20/26:
+
+Ran: N/A
+Broke: N/A
+Concluded: Wrote summary of how measuring disease signature in bulk tissue is different from individual cells and an example of the effects of this difference in Type 2 diabetes
