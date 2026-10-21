@@ -6,7 +6,7 @@ with cellxgene_census.open_soma(census_version="2025-11-08") as census:
     df = cellxgene_census.get_obs(
         census,
         "homo_sapiens",
-        value_filter="tissue == 'amygdala'",
+        value_filter="tissue_general == 'amygdala'",
         column_names=["cell_type", "tissue", "tissue_general"],
     )
 
