@@ -1,3 +1,14 @@
+10/13/26:
+
+Ran: Installed Python 3.15, a source code editor (VS Code) and installed the following extension offered for Python support: Python Extension, Python Debugger, Pylance, and Python Environments
+Broke: Started looking into Cellxgene Census compatiblity with Python and found out that the there are only library builds up to the 3.12 release
+Concluded: Will need to uninstall 3.15 and install 3.12 installed
+
+10/14/26:
+
+Ran: (1) Uninstalled 3.15 release and tried to install 3.12 instead (2) Installed uv, created 3.12 environment inside project folder, selected .venv as interpreter, 
+Broke: (1) 3.12 moveed to source-only releases; downloads page no longer offers installers for it
+Concluded: (1) Need an alternative pre-built 3.12 system (uv) to run the virtal environment 
 10/19/26:
 
 Ran: get_obs filtered on tissue_general == 'cranial ganglion', value_counts().head(10).
@@ -9,3 +20,9 @@ Concluded: Should choose a more common cell type (amygdala) that returned valid 
 Ran: N/A
 Broke: N/A
 Concluded: Wrote summary of how measuring disease signature in bulk tissue is different from individual cells and an example of the effects of this difference in Type 2 diabetes
+
+10/22/26:
+
+Ran: N/A
+Broke: N/A
+Concluded: Explained reasoning behind discrepancies/ambiguities in metadata findings 
