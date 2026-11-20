@@ -26,3 +26,19 @@ Concluded: Wrote summary of how measuring disease signature in bulk tissue is di
 Ran: N/A
 Broke: N/A
 Concluded: Explained reasoning behind discrepancies/ambiguities in metadata findings 
+
+10/31/26:
+Ran: Used obs_columns.py to define all 28 metadata fields in the database
+Broke: N/A
+Concluded: There are many more useful parameters for each dataset that are equally valuable as cell count (primary appareances, variances, assay type)
+
+11/1/26:
+Ran: Extracted metadata for a new tissue (large intestine) and extracted: number of datasets cell count contribution of each dataset, total count of each cell type, normal vs diseased cell counts
+Broke: Noticed the repeated cell count across several datasets and realized importance of filtering by is_primary_data
+Concluded: Added a condition that filtered the pandas dataframe for duplicates, and added a separate copy for this data
+
+11/2/26:
+Ran: Used cross_tabulation.py to cross-tabulate cell type against dataset ID for both healthy and diseased cells separately
+Broke: Noticed that most cell types only had one contributing dataset each & that there were no datasets with both normal and diseased cells present
+Concluded: The cross-tabulation was actually comparing dataset against dataset rather than how the disease signature was affecting cell counts (We must design the comparison so the confound cannot explain the result)
+

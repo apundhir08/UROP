@@ -1,0 +1,37 @@
+,disease,sex,stage,n_cells,n_labels,lib_size
+RA09_1_C_M,rheumatoid arthritis,male,young adult stage,555,1,203046
+RA16_1_C_M,rheumatoid arthritis,male,middle aged stage,38,1,46933
+RA10_1_C_F,rheumatoid arthritis,female,young adult stage,210,1,75215
+Control09_1_C_M,normal,male,young adult stage,1077,1,403440
+RA23_1_C_F,rheumatoid arthritis,female,adult stage,831,1,1046988
+Control07_1_C_F,normal,female,60-79 year-old stage,1483,1,1371480
+RA15_1_C_F,rheumatoid arthritis,female,adult stage,336,1,124026
+RA06_1_C_M,rheumatoid arthritis,male,60-79 year-old stage,343,1,149326
+RA08_1_C_M,rheumatoid arthritis,male,60-79 year-old stage,799,1,409431
+Control16_1_C_F,normal,female,young adult stage,239,1,83256
+RA21_1_H_F,rheumatoid arthritis,female,middle aged stage,14,1,9993
+Control15_1_C_F,normal,female,adult stage,567,1,237664
+Control10_1_C_F,normal,female,young adult stage,521,1,193481
+RA07_1_C_F,rheumatoid arthritis,female,60-79 year-old stage,444,1,205615
+Control03_1_C_F,normal,female,young adult stage,40,1,20480
+Control23_1_C_F,normal,female,middle aged stage,590,1,687253
+RA01_1_A_M,rheumatoid arthritis,male,adult stage,819,1,447214
+Control08_1_C_M,normal,male,60-79 year-old stage,469,1,227043
+RA03_1_C_F,rheumatoid arthritis,female,adult stage,298,1,158336
+RA05_1_C_M,rheumatoid arthritis,male,middle aged stage,1125,1,587008
+RA19_1_A_F,rheumatoid arthritis,female,60-79 year-old stage,372,1,448536
+Control05_1_C_M,normal,male,middle aged stage,858,1,427429
+RA18_1_C_F,rheumatoid arthritis,female,adult stage,240,1,309965
+Control21_1_C_F,normal,female,60-79 year-old stage,316,1,389954
+Control04_1_C_F,normal,female,middle aged stage,637,1,257867
+Control19_1_C_F,normal,female,middle aged stage,247,1,300068
+Control22_1_H_F,normal,female,middle aged stage,313,1,390876
+RA17_1_C_F,rheumatoid arthritis,female,middle aged stage,41,1,50668
+Control18_1_C_F,normal,female,middle aged stage,40,1,43872
+Control01_1_A_M,normal,male,middle aged stage,105,1,56732
+RA04_1_C_F,rheumatoid arthritis,female,middle aged stage,106,1,48445
+Control20_1_A_F,normal,female,middle aged stage,523,1,665165
+Control06_1_C_M,normal,male,60-79 year-old stage,230,1,102806
+RA22_1_C_F,rheumatoid arthritis,female,adult stage,138,1,170589
+RA20_1_C_F,rheumatoid arthritis,female,60-79 year-old stage,358,1,447161
+Control17_1_C_M,normal,male,middle aged stage,69,1,90175

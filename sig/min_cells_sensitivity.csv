@@ -1,0 +1,5 @@
+"min_cells","donors_normal","donors_RA","genes_tested","min_FDR","spearman_t_vs_main","up_overlap","down_overlap"
+1,18,18,8595,0.66,0.993,123,133
+20,18,17,9022,0.994,1,150,150
+50,16,15,9191,0.557,0.938,109,101
+150,14,13,9448,0.437,0.89,86,76
